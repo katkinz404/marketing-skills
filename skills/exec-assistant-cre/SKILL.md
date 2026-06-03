@@ -177,6 +177,19 @@ Opening lines that work for CRE EA roles:
 
 ---
 
+## Resume
+
+For a complete annotated example of an ideal EA/CRE resume, see [references/sample-resume.md](references/sample-resume.md).
+
+Key principles reflected in the sample:
+- Quantify everything: deal volume, transaction count, principals supported
+- Lead with outcomes, not responsibilities — every bullet answers "so what?"
+- Technology stack listed as its own section (CRE employers scan for it)
+- AI proficiency framed honestly: specific tools, specific use cases, honest growth signal
+- Summary leads with the employer's unspoken question: "will I have to manage this person?"
+
+---
+
 ## Related Skills
 
 - **copywriting**: For writing a compelling cover letter
