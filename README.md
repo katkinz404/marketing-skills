@@ -27,6 +27,7 @@ Skills are markdown files that give AI agents specialized knowledge and workflow
 | [form-cro](skills/form-cro/) | When the user wants to optimize any form that is NOT signup/registration — including lead capture forms, contact forms,... |
 | [free-tool-strategy](skills/free-tool-strategy/) | When the user wants to plan, evaluate, or build a free tool for marketing purposes — lead generation, SEO value, or... |
 | [launch-strategy](skills/launch-strategy/) | When the user wants to plan a product launch, feature announcement, or release strategy. Also use when the user... |
+| [local-service-sales-page](skills/local-service-sales-page/) | Use when the user wants an evidence-led, end-to-end sales, quote, lead-magnet, or landing-page system for a local... |
 | [marketing-ideas](skills/marketing-ideas/) | When the user needs marketing ideas, inspiration, or strategies for their SaaS or software product. Also use when the... |
 | [marketing-psychology](skills/marketing-psychology/) | When the user wants to apply psychological principles, mental models, or behavioral science to marketing. Also use when... |
 | [onboarding-cro](skills/onboarding-cro/) | When the user wants to optimize post-signup onboarding, user activation, first-run experience, or time-to-value. Also... |
@@ -145,6 +146,7 @@ You can also invoke skills directly:
 
 ### Conversion Optimization
 - `page-cro` - Any marketing page
+- `local-service-sales-page` - Evidence-led local-service sales and lead-capture page systems
 - `signup-flow-cro` - Registration flows
 - `onboarding-cro` - Post-signup activation
 - `form-cro` - Lead capture forms
