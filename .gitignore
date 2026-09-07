@@ -1,0 +1,5 @@
+# Client working areas and per-client context never belong in the shared library.
+# Run the agent from a separate private workspace with these skills installed.
+clients/
+.claude/product-marketing-context.md
+CLAUDE.local.md

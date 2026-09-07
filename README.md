@@ -144,6 +144,10 @@ You can also invoke skills directly:
 
 ## Skill Categories
 
+### Local & Home Services
+- `local-service-launch` - Go-live runbook for local and home-service businesses: Day-0 input gate, owner-only identity gates, compliant AI intake, paid-channel gating, weekly VA/agent loop, and a routing table for every other skill
+- `local-service-sales-page` - Evidence-led local-service sales and lead-capture page systems
+
 ### Conversion Optimization
 - `page-cro` - Any marketing page
 - `local-service-sales-page` - Evidence-led local-service sales and lead-capture page systems
@@ -154,6 +158,7 @@ You can also invoke skills directly:
 - `paywall-upgrade-cro` - In-app upgrade moments
 
 ### Content & Copy
+- `content-strategy` - Topic clusters, keyword research, and content prioritization
 - `copywriting` - Marketing page copy
 - `copy-editing` - Edit and polish existing copy
 - `email-sequence` - Automated email flows
@@ -178,6 +183,7 @@ You can also invoke skills directly:
 - `referral-program` - Referral and affiliate programs
 
 ### Strategy & Monetization
+- `product-marketing-context` - Shared positioning context that other skills read first
 - `marketing-ideas` - 140 SaaS marketing ideas
 - `marketing-psychology` - Mental models and psychology
 - `launch-strategy` - Product launches and announcements
