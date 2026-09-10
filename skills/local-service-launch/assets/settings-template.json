@@ -1,0 +1,62 @@
+{
+  "_comment": "PRIVATE CLIENT WORKSPACE settings for the local-service-launch kit. Not for this repo. INSTALL: (1) copy this file to <workspace>/.claude/settings.json; (2) copy hooks/block-send-publish.sh to <workspace>/.claude/hooks/block-send-publish.sh and run chmod +x on it; (3) start Claude Code in <workspace>, accept the workspace trust dialog, and run /permissions to confirm the deny and ask rules loaded with no warnings; (4) run the DRY-RUN commands in the hook header and log the exit codes in the Day 1-3 checklist. PLACEHOLDERS: none are required; the mcp__* globs match connector tool names across servers regardless of how your install names the server. If /permissions or claude doctor warns that a deny rule matches no known tool, that connector is not connected; the rule is harmless and can stay. HOW IT ENFORCES: deny beats ask beats allow, and a deny rule cannot be overridden by any other scope. The PreToolUse hook exits 2 on send/publish/share/delete tool names and on edits to truth-ledger.md and product-marketing-context.md; a hook exit 2 blocks before permission rules run, so the ask rules below are a second layer in case the hook is not installed. Path rules must use Edit(...): Claude Code consults Edit(path) and Read(path) rules only, and Edit rules cover the Write tool. MCP rules with parentheses are skipped, so no parameter matching on connector tools. Bash(git push *) matches only the literal form; the hook and the VA scope are the other layers. VERIFY against code.claude.com/docs/en/permissions and code.claude.com/docs/en/hooks before use (fetched 2026-09-10). Delete this _comment key if your Claude Code version flags it as an unrecognized setting.",
+  "permissions": {
+    "deny": [
+      "mcp__*__send*",
+      "mcp__*__*publish*",
+      "mcp__*__share*",
+      "mcp__*__delete*",
+      "mcp__*__trash*",
+      "mcp__*__post_message*",
+      "mcp__*__*_post*",
+      "mcp__*__forward*",
+      "mcp__*__reply*",
+      "mcp__*mail*__send*",
+      "mcp__*mail*__reply*",
+      "mcp__*mail*__forward*",
+      "mcp__*mail*__trash*",
+      "mcp__*mail*__delete*",
+      "mcp__*rive*__share*",
+      "mcp__*rive*__trash*",
+      "mcp__*rive*__delete*",
+      "mcp__*otion*__notion-create-pages",
+      "mcp__*otion*__notion-update-page",
+      "mcp__*otion*__notion-move-pages",
+      "mcp__*otion*__notion-duplicate-page",
+      "mcp__*otion*__notion-create-comment",
+      "mcp__*otion*__notion-update-data-source",
+      "mcp__*anva*__*publish*",
+      "mcp__*anva*__*export*",
+      "mcp__*lack*__*post*",
+      "mcp__*lack*__*send*",
+      "mcp__*ithub*__create_pull_request*",
+      "mcp__*ithub*__merge_pull_request",
+      "mcp__*ithub*__push_files",
+      "mcp__*ithub*__create_or_update_file",
+      "mcp__*ithub*__delete_file",
+      "Bash(git push *)",
+      "Bash(git push:*)",
+      "Bash(gh pr create *)",
+      "Bash(gh pr merge *)",
+      "Edit(**/approved/**)"
+    ],
+    "ask": [
+      "Edit(**/truth-ledger.md)",
+      "Edit(**/product-marketing-context.md)"
+    ]
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"$CLAUDE_PROJECT_DIR/.claude/hooks/block-send-publish.sh\"",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}
