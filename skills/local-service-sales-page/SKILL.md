@@ -315,10 +315,28 @@ Unless the user requests a narrower artifact, deliver:
 11. Prelaunch go or no-go checklist
 12. Next action small enough to complete immediately
 
+## Preamble for other skills
+
+When you invoke any SaaS-shaped skill in this repo (copywriting, page-cro, form-cro, email-sequence, analytics-tracking, ab-test-setup, pricing-strategy, and similar) on behalf of a local service business, paste this block at the top of the invocation so the evidence and approval rules travel with the work.
+
+```markdown
+CONTEXT FOR THIS INVOCATION (local service business)
+1. Read .claude/product-marketing-context.md and the client brief before doing anything else.
+2. The non-negotiable rules in local-service-sales-page override this skill wherever they conflict.
+3. Never invent services, prices, service area, capacity, reviews, photos, credentials, or policies. Use [placeholders] and label unknowns.
+4. The CTA must describe the true next state (a quote request is not a booking).
+5. No names, emails, phone numbers, addresses, or access notes in analytics events, UTMs, or URLs.
+6. Do not publish, spend, send, or launch anything. Draft only.
+7. End every artifact with two tables:
+   CLAIMS USED: statement | evidence class | source | date
+   APPROVALS NEEDED: item | gate A-G | owner decision
+```
+
 ## Related skills
 
 Use these installed skills when their prerequisites are satisfied:
 
+- local-service-launch: the upstream runbook (constraint diagnosis, Day-0 input gate, owner-only identity gates, compliant intake and receptionist, paid-channel gating, weekly VA and agent loop) and the downstream review loop and retention handoff
 - product-marketing-context: persist shared market and message context
 - copywriting: draft page copy from approved evidence and offer
 - copy-editing: tighten an existing approved draft
