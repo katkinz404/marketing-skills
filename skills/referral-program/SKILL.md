@@ -153,9 +153,39 @@ Trigger Moment → Share Action → Convert Referred → Reward → (Loop)
 
 ### Typical Findings
 
+These are commonly cited vendor heuristics without a published methodology. Treat them as directional, not as evidence, and measure your own program.
+
 - Referred customers have 16-25% higher LTV
 - Referred customers have 18-37% lower churn
 - Referred customers refer others at 2-3x rate
+
+---
+
+## Compliance for Local and Service Businesses
+
+If the business is a local or home-service company (cleaning, lawn care, repair, moving), referral rewards sit next to review requests, and the two must never mix. Apply these rules to every offer, message, and partner deal.
+
+### Reward Rules
+
+- **Pay only after the first paid job.** The referrer earns the reward when the referred customer's first job is completed and paid, not at signup, quote, or booking.
+- **Never condition a reward on a review.** No reward, credit, or discount may depend on anyone writing a review, leaving a rating, or posting a public recommendation. FTC 16 CFR 465.4 bans incentives conditioned on review sentiment, and the FTC Endorsement Guides treat incentivized public praise as an endorsement that requires disclosure. Google Maps prohibits any review incentive, and Nextdoor prohibits incentivized recommendations.
+- **Never tie a reward to a star rating.** "Leave us 5 stars and get $[number] off" violates every major platform policy and is the exact pattern the FTC rule targets.
+- **Keep referral offers out of review requests.** A message that asks for a review contains no referral offer, discount, or reward. Send them as separate messages, days apart.
+
+### Disclosure
+
+- When a referrer posts about the program publicly (neighborhood groups, social media, community forums), they must disclose that they earn a reward for referrals, per the FTC Endorsement Guides. Put a plain-language disclosure in the share copy you give them, for example: "I get a credit if you book through my link."
+- Do not script referrers to post reviews or recommendations. Give them a link and a disclosure line, nothing more.
+
+### Referral Partners
+
+- Fees to referral partners (realtors, property managers, movers, short-term-rental hosts) are **flat fees per booked job**, set in a **written agreement** that states the fee amount, the trigger event, and the partner's duty to disclose the relationship when recommending the business.
+- Partner fees are never a percentage of the customer's ongoing spend and never tied to reviews or ratings.
+
+### Source and Limits
+
+- FTC Consumer Reviews and Testimonials Rule questions and answers: https://www.ftc.gov/business-guidance/resources/consumer-reviews-testimonials-rule-questions-answers
+- This section is guidance, not legal advice. Consult counsel licensed in the business's state before launching a referral or partner program.
 
 ---
 
