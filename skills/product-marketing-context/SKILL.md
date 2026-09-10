@@ -28,6 +28,8 @@ First, check if `.claude/product-marketing-context.md` already exists.
 
 Most users prefer option 1. After presenting the draft, ask: "What needs correcting? What's missing?"
 
+**Local or home-service business?** Use `references/service-business-template.md` instead of the SaaS section map below. The auto-draft-from-codebase option usually does not apply because there is no product codebase, so draft from the client intake instead, one section at a time, tagging each fact with an evidence class and a date. The intake template lives at `../local-service-sales-page/assets/client-intake-template.md`, and `local-service-launch` covers how to complete it in Phase 0.
+
 ### Step 2: Gather Information
 
 **If auto-drafting:**
