@@ -27,6 +27,7 @@ Skills are markdown files that give AI agents specialized knowledge and workflow
 | [form-cro](skills/form-cro/) | When the user wants to optimize any form that is NOT signup/registration — including lead capture forms, contact forms,... |
 | [free-tool-strategy](skills/free-tool-strategy/) | When the user wants to plan, evaluate, or build a free tool for marketing purposes — lead generation, SEO value, or... |
 | [launch-strategy](skills/launch-strategy/) | When the user wants to plan a product launch, feature announcement, or release strategy. Also use when the user... |
+| [local-service-consultant-funnel](skills/local-service-consultant-funnel/) | Use when a solo consultant or small agency needs a documented, repeatable way to find, audit, pitch, sign, and onboard local... |
 | [local-service-sales-page](skills/local-service-sales-page/) | Use when the user wants an evidence-led, end-to-end sales, quote, lead-magnet, or landing-page system for a local... |
 | [marketing-ideas](skills/marketing-ideas/) | When the user needs marketing ideas, inspiration, or strategies for their SaaS or software product. Also use when the... |
 | [marketing-psychology](skills/marketing-psychology/) | When the user wants to apply psychological principles, mental models, or behavioral science to marketing. Also use when... |
@@ -147,6 +148,7 @@ You can also invoke skills directly:
 ### Conversion Optimization
 - `page-cro` - Any marketing page
 - `local-service-sales-page` - Evidence-led local-service sales and lead-capture page systems
+- `local-service-consultant-funnel` - A consultant's own funnel to audit, pitch, sign, and onboard local service trades
 - `signup-flow-cro` - Registration flows
 - `onboarding-cro` - Post-signup activation
 - `form-cro` - Lead capture forms

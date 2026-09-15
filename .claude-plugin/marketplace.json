@@ -5,14 +5,14 @@
     "url": "https://corey.co"
   },
   "metadata": {
-    "description": "Marketing skills for Claude Code — conversion optimization, copywriting, SEO, paid ads, and growth",
+    "description": "Marketing skills for Claude Code \u2014 conversion optimization, copywriting, SEO, paid ads, and growth",
     "version": "1.0.0",
     "repository": "https://github.com/coreyhaines31/marketingskills"
   },
   "plugins": [
     {
       "name": "marketing-skills",
-      "description": "26 marketing skills for technical marketers and founders: CRO, copywriting, SEO, paid ads, pricing strategy, referral programs, and more",
+      "description": "27 marketing skills for technical marketers and founders: CRO, copywriting, SEO, paid ads, pricing strategy, referral programs, and more",
       "source": "./",
       "strict": false,
       "skills": [
@@ -26,6 +26,7 @@
         "./skills/form-cro",
         "./skills/free-tool-strategy",
         "./skills/launch-strategy",
+        "./skills/local-service-consultant-funnel",
         "./skills/local-service-sales-page",
         "./skills/marketing-ideas",
         "./skills/marketing-psychology",
