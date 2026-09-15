@@ -51,7 +51,7 @@ Create the profile under a Google account you control. Use these exact choices.
 | Phone and website | The one answered number and the one URL from the NAP block | Identical NAP on every listing |
 | Services | Leave until verified; then tick only Google's predefined services you sell | Predefined services affect ranking, custom ones do not (Sterling Sky, industry_research) |
 
-**If a verified profile already exists**, skip the video and the 14-day freeze does not apply. Instead: confirm the profile is not restricted, walk the table above field by field against the NAP block, and batch any corrections over several days rather than in one sitting. A dormant profile that changes many core fields at once can trigger re-verification (judgment). If the profile has no reviews, the review loop is the binding constraint from Day 1: queue the identical, un-incentivized ask to every completed job and one compliant ask to past customers you can legitimately contact.
+**If a verified profile already exists**, skip the video and the 14-day freeze does not apply. Instead: confirm the profile is not restricted, walk the table above field by field against the NAP block, and batch any corrections over several days rather than in one sitting. A dormant profile that changes many core fields at once can trigger re-verification (judgment). If the profile has no reviews, the review loop is the binding constraint from Day 1: queue the identical, un-incentivized ask to every completed job, and run `past-customer-review-outreach.md` for past customers you can legitimately contact (paced, personal, no incentive).
 
 ### 4. Verification video shot script (skip if already verified)
 
