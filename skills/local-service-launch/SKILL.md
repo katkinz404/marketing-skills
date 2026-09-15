@@ -62,6 +62,7 @@ These mirror local-service-sales-page and add the launch-specific rules. They ov
 | Day 3-7 QA | `assets/fake-lead-qa-script.md` |
 | Day 5-14 VA and weekly loop | `assets/va-scope-and-data-rules.md`, `assets/weekly-scorecard-template.md` |
 | Existing profile with few reviews | `assets/past-customer-review-outreach.md` |
+| Owner has strong personal profiles locally | `assets/personal-network-social-campaigns.md` |
 
 5. Do not load another client's workspace, artifacts, or ledger into this client's session.
 
@@ -283,7 +284,7 @@ Client workspace: [path, never this repo]
 
 | Channel | Earliest day | Gates | Cap (judgment) | Stop rule |
 |---|---|---|---|---|
-| Warm network and partners | Day 3-7 | D, E | $0; partner fee per booked job only | None; owner sends personally |
+| Warm network and partners | Day 3-7 | D, E | $0; partner fee per booked job only | None; owner sends personally; campaigns in `assets/personal-network-social-campaigns.md` |
 | Yelp Request-a-Quote | Day 3-7 | B, D | $0; never buy Yelp ads in month 1 | Never solicit Yelp reviews |
 | Thumbtack | Day 5-14 | C, D | $50-100 per week | Two weeks over ceiling, or 5x Max CPL with zero qualified leads |
 | Google Search | Day 7-14 | B, C | $20-40 per day | Same two stops; pause while advertiser verification is pending |
